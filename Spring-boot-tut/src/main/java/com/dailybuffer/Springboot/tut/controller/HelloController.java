@@ -10,7 +10,7 @@ public class HelloController {
 //    @RequestMapping(value = "/" , method = RequestMethod.GET)
     @GetMapping("/")
     public String helloWorld(){
-        return "welcome to aayush world of BNY MELLON";
+        return "welcome to SpringBoot";
     }
 
 }
