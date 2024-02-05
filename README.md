@@ -1,9 +1,11 @@
 # CRUD-REST-API-H2-JPA-Spring-boot
 
 **Overview**
+
 This project demonstrates the implementation of a CRUD (Create, Read, Update, Delete) REST API using Spring Boot, JPA (Java Persistence API), and an H2 in-memory database with a web-based console.
 
 **What is CRUD?**
+
 CRUD stands for Create, Read, Update, and Delete. It represents the basic operations that can be performed on data in a database or API:
 
 Create: Inserting new data into the system.
@@ -18,6 +20,7 @@ Update: PUT or PATCH method.
 Delete: DELETE method.
 
 **Implementation Details**
+
 Technologies Used
 Spring Boot: A popular Java framework for building microservices and web applications.
 Spring Data JPA: Simplifies the implementation of data access layers by providing mechanisms for ORM (Object-Relational Mapping).
@@ -32,6 +35,7 @@ Services: Business logic for processing data and interacting with repositories.
 Controllers: Define REST endpoints and handle HTTP requests/responses.
 H2 Console
 H2 Console is a web-based database management tool provided by the H2 database. It allows users to interact with the in-memory database, execute SQL queries, and view data visually through a web browser.
+
 **
 To access the H2 Console, run the Spring Boot application and navigate to http://localhost:8384/h2-console in your web browser. Use the JDBC URL (jdbc:h2:~/test) and default credentials (Username: sa, Password: ak2002).**
 
