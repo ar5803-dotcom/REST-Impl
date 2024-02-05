@@ -33,7 +33,7 @@ Controllers: Define REST endpoints and handle HTTP requests/responses.
 H2 Console
 H2 Console is a web-based database management tool provided by the H2 database. It allows users to interact with the in-memory database, execute SQL queries, and view data visually through a web browser.
 **
-To access the H2 Console, run the Spring Boot application and navigate to http://localhost:8080/h2-console in your web browser. Use the JDBC URL (jdbc:h2:~/test) and default credentials (Username: sa, Password: ak2002).**
+To access the H2 Console, run the Spring Boot application and navigate to http://localhost:8384/h2-console in your web browser. Use the JDBC URL (jdbc:h2:~/test) and default credentials (Username: sa, Password: ak2002).**
 
 Testing with Postman
 Postman is a popular tool for testing APIs. You can use it to send requests to the CRUD endpoints exposed by the Spring Boot application and verify the responses. Here's how to test each CRUD operation:
