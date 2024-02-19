@@ -6,19 +6,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 @RestController
 public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
-
+    private final Logger LOGGER = Logger.getLogger(DepartmentController.class.getName());
     @PostMapping("/departments")
     public Department saveDepartment(@Valid @RequestBody Department department) {
+        LOGGER.info("Inside savedept of deptcontroller");
         return departmentService.saveDepartment(department);
     }
 
     @GetMapping("/departments")
     public List<Department> fetchDepartmentList() {
+        LOGGER.info("Inside fetchdept of deptcontroller");
         return departmentService.fetchDepartmentList();
     }
 
