@@ -10,6 +10,9 @@ public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long departmentId;
+    
+    //    Hibernate validation 
+    @NotBlank(message = "Please enter the department name")
     private String departmentName;
     private String departmentAddress;
     private String departmentCode;
