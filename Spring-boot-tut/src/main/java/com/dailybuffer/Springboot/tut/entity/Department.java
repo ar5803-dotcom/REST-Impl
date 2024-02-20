@@ -6,6 +6,11 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
+// Lombok - removing boiler plate
+// @Data
+// @NoArgsConstructor
+// @AllArgsConstructor
+// @Builder
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
