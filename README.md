@@ -1,4 +1,4 @@
-# CRUD-REST-API-H2-JPA-Spring-boot
+#CRUD REST API - Spring Boot
 
 **Overview**
 
